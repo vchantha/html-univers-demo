@@ -1,4 +1,18 @@
 # html-univers-demo
+
+### Make service 
+
+ docker build -t html-univers .
+
+ docker run -ti -d --name html-demo -p 8080:80 html-univers:latest
+ 
+ docker ps 
+ 
+ docker stop html-demo
+ 
+ docker rm html-demo
+ 
+### result 
 HTML - Sample demo docker running web
 
 
